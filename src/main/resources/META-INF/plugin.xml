@@ -1,6 +1,6 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-  <id>com.github.beatreichenbach.jetbrains-one-dark-two</id>
+  <id>com.github.beatreichenbach.one_dark_two</id>
   <name>One Dark Two Theme</name>
   <vendor url="https://github.com/beatreichenbach">Beat Reichenbach</vendor>
   <description><![CDATA[
@@ -50,9 +50,9 @@ It uses similar colors but provides more contrast and brighter whites to make it
 ]]></description>
   <depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="com.github.beatreichenbach.jetbrains-one-dark-two" path="/themes/fresh.theme.json"/>
-    <themeProvider id="com.github.beatreichenbach.jetbrains-one-dark-two" path="/themes/classic.theme.json"/>
-    <bundledColorScheme id="com.github.beatreichenbach.jetbrains-one-dark-two" path="/themes/fresh"/>
-    <bundledColorScheme id="com.github.beatreichenbach.jetbrains-one-dark-two" path="/themes/classic"/>
+    <themeProvider id="com.github.beatreichenbach.one_dark_two" path="/themes/fresh.theme.json"/>
+    <themeProvider id="com.github.beatreichenbach.one_dark_two" path="/themes/classic.theme.json"/>
+    <bundledColorScheme id="com.github.beatreichenbach.one_dark_two" path="/themes/fresh"/>
+    <bundledColorScheme id="com.github.beatreichenbach.one_dark_two" path="/themes/classic"/>
   </extensions>
 </idea-plugin>
