@@ -12,12 +12,8 @@
   <img src="assets/preview.png"/>
 </p>
 
-**One Dark Two** is my interpretation of the One Dark theme with more contrast.
-This repository is based on the code by:
-
-* [catpuccin/jetbrains](https://github.com/catppuccin/jetbrains)
-* [one-dark/jetbrains-one-dark-theme](https://github.com/one-dark/jetbrains-one-dark-theme)
-* [subtheme-dev/atom-one](https://github.com/subtheme-dev/atom-one)
+**One Dark Two** is a fresh take on [Atom](https://github.com/atom/atom)'s One Dark Two theme.
+It uses similar colors but provides more contrast and brighter whites to make it easier to read.
 
 ## Installation
 
@@ -30,7 +26,7 @@ This repository is based on the code by:
 
 ### Manual
 
-Download the [latest release](https://github.com/beatreichenbach/one_dark_two/releases/latest) and import it by heading to <kbd>
+Download the [latest release](https://github.com/beatreichenbach/jetbrains-one-dark-two/releases/latest) and import it by heading to <kbd>
 Settings</kbd> → <kbd>Plugins</kbd> → ⚙️ → <kbd>Install plugin from disk...</kbd>
 
 ## Usage
@@ -52,3 +48,12 @@ There are 2 variants for you to choose from: **Fresh** and **Classic**.
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md)
+
+This repository is based on the code from these repositories:
+* [catpuccin/jetbrains](https://github.com/catppuccin/jetbrains)
+* [one-dark/jetbrains-one-dark-theme](https://github.com/one-dark/jetbrains-one-dark-theme)
+* [subtheme-dev/atom-one](https://github.com/subtheme-dev/atom-one)
+
+## License
+
+One Dark Two is released under the MIT license, see the [LICENSE](LICENSE).

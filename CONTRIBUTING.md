@@ -19,7 +19,7 @@ Generate the variants:
 
 Add gradlew:
 ```shell
-gradle wrapper --gradle-version 8.10.2 --distribution-type bin
+gradle wrapper --gradle-version 9.2.1 --distribution-type bin
 ```
 
 Build the plugin:
