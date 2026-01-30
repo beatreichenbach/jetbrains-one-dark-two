@@ -48,11 +48,11 @@ It uses similar colors but provides more contrast and brighter whites to make it
 
 <p>LICENSE: <a href="https://github.com/beatreichenbach/jetbrains-one-dark-two/blob/main/LICENSE">MIT</a></p>
 ]]></description>
-  <depends>com.intellij.modules.platform</depends>
+<depends>com.intellij.modules.platform</depends>
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="com.github.beatreichenbach.one_dark_two" path="/themes/fresh.theme.json"/>
-    <themeProvider id="com.github.beatreichenbach.one_dark_two" path="/themes/classic.theme.json"/>
-    <bundledColorScheme id="com.github.beatreichenbach.one_dark_two" path="/themes/fresh"/>
-    <bundledColorScheme id="com.github.beatreichenbach.one_dark_two" path="/themes/classic"/>
+    <themeProvider id="com.github.beatreichenbach.one_dark_two.fresh" path="/themes/fresh.theme.json"/>
+    <themeProvider id="com.github.beatreichenbach.one_dark_two.classic" path="/themes/classic.theme.json"/>
+    <bundledColorScheme id="com.github.beatreichenbach.one_dark_two.fresh.scheme" path="/themes/fresh.xml"/>
+    <bundledColorScheme id="com.github.beatreichenbach.one_dark_two.classic.scheme" path="/themes/classic.xml"/>
   </extensions>
 </idea-plugin>
